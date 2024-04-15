@@ -1,0 +1,47 @@
+{
+  "type": "spectrum:enchanter",
+  "group": "ad_astra_giselle_addon",
+  "time": 300,
+  "required_experience": 100,
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "spectrum:blue_pigment"
+    },
+    {
+      "item": "spectrum:blue_pigment"
+    },
+    {
+      "item": "ad_astra:desh_ingot"
+    },
+    {
+      "item": "spectrum:bedrock_dust"
+    },
+    {
+      "item": "spectrum:blue_pigment"
+    },
+    {
+      "item": "spectrum:blue_pigment"
+    },
+    {
+      "item": "ad_astra:desh_ingot"
+    },
+    {
+      "item": "spectrum:bedrock_dust"
+    }
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "ad_astra_giselle_addon:gravity_normalizing",
+          "lvl": "1s"
+        }
+      ]
+    }
+  },
+  "required_advancement": "spectrum:unlocks/enchantments/vanilla_unbreaking"
+}
