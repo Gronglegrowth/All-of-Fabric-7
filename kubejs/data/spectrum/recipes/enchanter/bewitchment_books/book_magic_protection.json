@@ -1,0 +1,47 @@
+{
+  "type": "spectrum:enchanter",
+  "group": "bewitchment",
+  "time": 300,
+  "required_experience": 100,
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "spectrum:pink_pigment"
+    },
+    {
+      "item": "spectrum:pink_pigment"
+    },
+    {
+      "item": "bewitchment:witchberry"
+    },
+    {
+      "item": "spectrum:bedrock_dust"
+    },
+    {
+      "item": "spectrum:pink_pigment"
+    },
+    {
+      "item": "spectrum:pink_pigment"
+    },
+    {
+      "item": "bewitchment:witchberry"
+    },
+    {
+      "item": "spectrum:bedrock_dust"
+    }
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "id": "bewitchment:magic_protection",
+          "lvl": "1s"
+        }
+      ]
+    }
+  },
+  "required_advancement": "spectrum:unlocks/enchantments/vanilla_protection"
+}
